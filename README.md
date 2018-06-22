@@ -1,8 +1,8 @@
 ## Inspiration
-Began life as a project for my Neural Networks class. The idea was to see how well one could generate pleasant-sounding music using a Neural Network, by composing the song data one character at a time (a la Andrej Karpathy and his [Shakespeare generation](https://karpathy.github.io/2015/05/21/rnn-effectiveness/).
+Began life as a project for my Neural Networks class. The idea was to see how well one could generate pleasant-sounding music using a Neural Network (a la Andrej Karpathy and his neural network-generated [Shakespeare sonnets](https://karpathy.github.io/2015/05/21/rnn-effectiveness/).
 
 ## What it does
-Feeding it musical data in ABC notation, the network generates a sequence character-by-character, whose output is a musical composition in ABC notation. This output can be fed into an ABC-to-MIDI converter to produce an audible music file.
+Feeding the network musical data in ABC notation, it generates a sequence character-by-character, whose output is a musical composition in ABC notation. This output can be fed into an ABC-to-MIDI converter to produce an audible music file.
 
 ## How I built it
 Neural network in PyTorch using LSTM layers.
